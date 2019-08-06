@@ -23,7 +23,7 @@ namespace UtilityTool
         /// </summary>
         /// <param name="stream"></param>
         /// <returns></returns>
-        public byte[] StreamToBytes(Stream stream)
+        public static byte[] StreamToBytes(Stream stream)
         {
             byte[] bytes = new byte[stream.Length];
             stream.Read(bytes, 0, bytes.Length);
@@ -38,7 +38,7 @@ namespace UtilityTool
         /// </summary>
         /// <param name="stream"></param>
         /// <param name="fileName"></param>
-        public void StreamToFile(Stream stream, string fileName)
+        public static void StreamToFile(Stream stream, string fileName)
         {
             // 把 Stream 轉成 byte[]
             byte[] bytes = new byte[stream.Length];
@@ -58,7 +58,7 @@ namespace UtilityTool
         /// </summary>
         /// <param name="fileName"></param>
         /// <returns></returns>
-        public Stream FileToStream(string fileName)
+        public static Stream FileToStream(string fileName)
         {
             // 開檔
             FileStream fileStream = new FileStream(fileName, FileMode.Open, FileAccess.Read, FileShare.Read);

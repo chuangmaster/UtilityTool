@@ -10,7 +10,7 @@ namespace UtilityTool
     /// <summary>
     /// File operation utility tool.
     /// </summary>
-    public static class FileIO
+    public static class FileIOTool
     {
         /// <summary>
         /// 將 byte[] 轉成 Stream

@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace UtilityTool
 {
+    /// <summary>
+    /// File operation utility tool.
+    /// </summary>
     public static class FileIO
     {
         /// <summary>

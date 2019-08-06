@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace UtilityTool
 {
-    public class FileIO
+    public static class FileIO
     {
         /// <summary>
         /// 將 byte[] 轉成 Stream

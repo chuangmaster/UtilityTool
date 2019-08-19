@@ -8,7 +8,7 @@ namespace UtilityTool.Helper.Tests
     public class EnumExtensionTests
     {
         [TestMethod()]
-        [TestCategory("UtilityTool.Enum")]
+        [TestCategory("UtilityTool.Helper")]
         [TestProperty("EnumExtension", "GetAllMemberDescription")]
         public void GetAllMemberDescriptionTest()
         {

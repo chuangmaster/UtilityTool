@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helper\EnumHelper.cs" />
     <Compile Include="FileIOTool.cs" />
     <Compile Include="NetTool.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

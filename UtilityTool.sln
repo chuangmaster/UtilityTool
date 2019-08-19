@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityTool", "UtilityTool\UtilityTool.csproj", "{933B2661-5F74-4AF4-96BE-D6028131ED4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityToolTests", "UtilityToolTests\UtilityToolTests.csproj", "{9D9FBE4C-8CDF-48F0-975C-3D164210BFA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{933B2661-5F74-4AF4-96BE-D6028131ED4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{933B2661-5F74-4AF4-96BE-D6028131ED4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{933B2661-5F74-4AF4-96BE-D6028131ED4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D9FBE4C-8CDF-48F0-975C-3D164210BFA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D9FBE4C-8CDF-48F0-975C-3D164210BFA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D9FBE4C-8CDF-48F0-975C-3D164210BFA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D9FBE4C-8CDF-48F0-975C-3D164210BFA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,7 +9,7 @@ namespace UtilityTool.Helper.Tests
     {
         [TestMethod()]
         [TestCategory("UtilityTool.Helper")]
-        [TestProperty("EnumExtension", "GetAllMemberDescription")]
+        [TestProperty("EnumHelper", "GetAllMemberDescription")]
         public void GetAllMemberDescriptionTest()
         {
             //arrange

@@ -9,7 +9,12 @@ namespace UtilityTool.Helper
 {
     public static class EnumHelper
     {
-
+        /// <summary>
+        /// 取得所有Enum成員的Description attribute
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="t"></param>
+        /// <returns></returns>
         public static Dictionary<int, string> GetAllMemberDescription<T>(T t)
         where T : Type
         {

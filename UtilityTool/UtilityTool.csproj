@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Extension\EnumExtension.cs" />
+    <Compile Include="Helper\AsyncHelper.cs" />
     <Compile Include="Helper\EnumHelper.cs" />
     <Compile Include="FileIOTool.cs" />
     <Compile Include="NetTool.cs" />

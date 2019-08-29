@@ -27,9 +27,28 @@ namespace UtilityTool.Cache
             _Cache = memoryCache;
             _DateTimeOffset = dateTimeOffset;
         }
-        public object Check(string key)
+
+        /// <summary>
+        /// 取得快取內容
+        /// </summary>
+        /// <typeparam name="TResult"></typeparam>
+        /// <param name="key"></param>
+        /// <returns></returns>
+        public TResult Get<TResult>(string key)
         {
-            throw new NotImplementedException();
+            TResult result = default(TResult);
+            if (Exists(key))
+            {
+                if (_Cache.Get(key) is TResult)
+                {
+                    result = (TResult)_Cache.Get(key);
+                }
+                else
+                {
+                    throw new NotSupportedException("Target type is not exist");
+                }
+            }
+            return result;
         }
 
         /// <summary>

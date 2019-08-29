@@ -26,10 +26,11 @@ namespace UtilityTool.Cache.Interface
         void Clear(string key);
 
         /// <summary>
-        /// 確認快取是否存在
+        /// 取得快取內容
         /// </summary>
-        /// <param name="key">key值</param>
+        /// <typeparam name="TResult"></typeparam>
+        /// <param name="key"></param>
         /// <returns></returns>
-        object Check(string key);
+        TResult Get<TResult>(string key);
     }
 }

@@ -59,7 +59,7 @@ namespace UtilityTool.Helper
             {
                 throw new Exception("Key is null or empty");
             }
-            var success = Enum.TryParse<T>(key, ignoreCase, out T result);
+            var success = System.Enum.TryParse<T>(key, ignoreCase, out T result);
             if (success)
             {
                 return result;

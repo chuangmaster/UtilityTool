@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Cache\Interface\ICache.cs" />
     <Compile Include="Cache\RuntimeCache.cs" />
+    <Compile Include="EncryptTool.cs" />
     <Compile Include="Enum\CacheTypeEnum.cs" />
     <Compile Include="Extension\EnumExtension.cs" />
     <Compile Include="Helper\AsyncHelper.cs" />
